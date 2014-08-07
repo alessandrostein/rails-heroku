@@ -8,7 +8,7 @@ Este manual foi escrito com base no seguinte ambiente:
 - PostgreSQL 9.1
 - Git 1.9.1
 
-Primeiramente cadastre-se no **Heroku** (https://id.heroku.com/signup) e faça o login na plataforma, após este passo baixe o **Heroku Toolbelt** e instale (https://devcenter.heroku.com/toolbelt-downloads/debian).
+Primeiramente cadastre-se no **Heroku** (https://id.heroku.com/signup) e **faça o login na plataforma**, depois baixe o **Heroku Toolbelt** e instale (https://devcenter.heroku.com/toolbelt-downloads/debian).
 
 No terminal (**CRTL+ALT+T**) faça a autenticação no heroku.
 
@@ -58,7 +58,7 @@ Este arquivo ficará parecido com este código (os comentários foram removidos)
 
 ```ruby
 Rails.application.routes.draw do
-root 'welcome#index'
+	root 'welcome#index'
 end
 ```
 

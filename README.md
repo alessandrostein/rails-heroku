@@ -41,11 +41,13 @@ $ rails generate controller welcome
 Na pasta **rails-heroku/app/views/welcome/** adicione um arquivo com o seguinte nome **index.html.erb**
 Abra este arquivo e adicione o código desejado.
 
-```<h2>Hello Heroku</h2>
+```html
+<h2>Hello Heroku</h2>
 <p>
   The time is now: <%= Time.now %>
 </p>
 ```
+
 É necessário adicionarmos as **Rotas** da aplicação qual será a página inicial da nossa aplicação, no caso o arquivo recém criado. Abra o seguinte arquivo **rails-heroku/config/routes.rb** e adicione na segunda linha o seguinte código.
 
 ```ruby

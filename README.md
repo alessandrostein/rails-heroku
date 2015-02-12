@@ -1,5 +1,7 @@
 ## Criando e fazendo deploy de uma aplicação Ruby on Rails no Heroku.
 
+Update 12/02/2015
+
 Este manual foi escrito com base no seguinte ambiente:
 
 - Ubuntu 14.04
@@ -8,7 +10,7 @@ Este manual foi escrito com base no seguinte ambiente:
 - PostgreSQL 9.1
 - Git 1.9.1
 
-Primeiramente cadastre-se no **Heroku** (https://id.heroku.com/signup) e **faça o login na plataforma**, depois baixe o **Heroku Toolbelt** e instale (https://devcenter.heroku.com/toolbelt-downloads/debian).
+Primeiramente cadastre-se no **Heroku** (https://id.heroku.com/signup) e **faça o login na plataforma**, depois baixe o **Heroku Toolbelt** e instale (https://toolbelt.heroku.com/).
 
 No terminal (**CRTL+ALT+T**) faça a autenticação no heroku.
 
